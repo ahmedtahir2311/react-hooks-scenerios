@@ -7,9 +7,10 @@ import UseCallbackHook from "./hooks/useCallbackHook";
 import UseMemoHooks from "./hooks/useMemoHooks";
 import UseRefHook from "./hooks/useRefHook";
 import UseContextHook from "./hooks/useContextHook";
+import UseId from "./hooks/useIdHook";
 
 function App() {
-  return <UseContextHook />;
+  return <UseId />;
 }
 
 export default App;
