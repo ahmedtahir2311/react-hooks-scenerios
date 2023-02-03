@@ -16,8 +16,6 @@ const UseMemoHooks = () => {
   };
   const todos = createTodos();
 
-  function filterTodos(todos, tab) {}
-
   const visibleTodos = useMemo(
     () =>
       todos.filter((todo) => {
